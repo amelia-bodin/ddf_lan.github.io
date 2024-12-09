@@ -1,6 +1,6 @@
 {
-  "name": "ddf_lan",
-  "title": "ddf_lan",
+  "name": "lan_ddf",
+  "title": "lan_ddf",
   "description": "",
   "version": "0.0.1",
   "language": {
@@ -54,6 +54,69 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--ant_ny_for--by--lan--year.csv",
+      "name": "ant_ny_for--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_ny_for"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--avs_tilv_tra--by--lan--year.csv",
+      "name": "avs_tilv_tra--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "avs_tilv_tra"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--brutto_lan--by--lan--year.csv",
+      "name": "brutto_lan--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "brutto_lan"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--foradl--by--lan--year.csv",
       "name": "foradl--by--lan--year",
       "schema": {
@@ -75,8 +138,8 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--fora_bio_ejbranch--by--lan--year.csv",
-      "name": "fora_bio_ejbranch--by--lan--year",
+      "path": "ddf--datapoints/ddf--datapoints--foradl_bio--by--lan--year.csv",
+      "name": "foradl_bio--by--lan--year",
       "schema": {
         "fields": [
           {
@@ -86,7 +149,7 @@
             "name": "year"
           },
           {
-            "name": "fora_bio_ejbranch"
+            "name": "foradl_bio"
           }
         ],
         "primaryKey": [
@@ -96,8 +159,8 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--fora_bio_mark--by--lan--year.csv",
-      "name": "fora_bio_mark--by--lan--year",
+      "path": "ddf--datapoints/ddf--datapoints--forv_bio--by--lan--year.csv",
+      "name": "forv_bio--by--lan--year",
       "schema": {
         "fields": [
           {
@@ -107,385 +170,7 @@
             "name": "year"
           },
           {
-            "name": "fora_bio_mark"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--fora_bio_offentl--by--lan--year.csv",
-      "name": "fora_bio_offentl--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "fora_bio_offentl"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--fora_bio_tja--by--lan--year.csv",
-      "name": "fora_bio_tja--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "fora_bio_tja"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--fora_bio_tot--by--lan--year.csv",
-      "name": "fora_bio_tot--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "fora_bio_tot"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_ejbranch--by--lan--year.csv",
-      "name": "forv_bio_ejbranch--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_ejbranch"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_ejbranch_kvn--by--lan--year.csv",
-      "name": "forv_bio_ejbranch_kvn--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_ejbranch_kvn"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_ejbranch_mn--by--lan--year.csv",
-      "name": "forv_bio_ejbranch_mn--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_ejbranch_mn"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_mark--by--lan--year.csv",
-      "name": "forv_bio_mark--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_mark"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_mark_kvn--by--lan--year.csv",
-      "name": "forv_bio_mark_kvn--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_mark_kvn"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_mark_mn--by--lan--year.csv",
-      "name": "forv_bio_mark_mn--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_mark_mn"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_offentl--by--lan--year.csv",
-      "name": "forv_bio_offentl--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_offentl"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_offentl_kvn--by--lan--year.csv",
-      "name": "forv_bio_offentl_kvn--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_offentl_kvn"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_offentl_mn--by--lan--year.csv",
-      "name": "forv_bio_offentl_mn--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_offentl_mn"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_tja--by--lan--year.csv",
-      "name": "forv_bio_tja--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_tja"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_tja_kvn--by--lan--year.csv",
-      "name": "forv_bio_tja_kvn--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_tja_kvn"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_tja_mn--by--lan--year.csv",
-      "name": "forv_bio_tja_mn--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_tja_mn"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_tot--by--lan--year.csv",
-      "name": "forv_bio_tot--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_tot"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_tot_kvn--by--lan--year.csv",
-      "name": "forv_bio_tot_kvn--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_tot_kvn"
-          }
-        ],
-        "primaryKey": [
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_bio_tot_mn--by--lan--year.csv",
-      "name": "forv_bio_tot_mn--by--lan--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_bio_tot_mn"
+            "name": "forv_bio"
           }
         ],
         "primaryKey": [
@@ -528,6 +213,48 @@
           },
           {
             "name": "forv_kvn_ant"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_kvn_bio--by--lan--year.csv",
+      "name": "forv_kvn_bio--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_kvn_bio"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_man_bio--by--lan--year.csv",
+      "name": "forv_man_bio--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_man_bio"
           }
         ],
         "primaryKey": [
@@ -621,8 +348,8 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--netto_bio_mark--by--lan--year.csv",
-      "name": "netto_bio_mark--by--lan--year",
+      "path": "ddf--datapoints/ddf--datapoints--med_tilv_tra--by--lan--year.csv",
+      "name": "med_tilv_tra--by--lan--year",
       "schema": {
         "fields": [
           {
@@ -632,7 +359,7 @@
             "name": "year"
           },
           {
-            "name": "netto_bio_mark"
+            "name": "med_tilv_tra"
           }
         ],
         "primaryKey": [
@@ -642,8 +369,8 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--netto_bio_tja--by--lan--year.csv",
-      "name": "netto_bio_tja--by--lan--year",
+      "path": "ddf--datapoints/ddf--datapoints--netto_bio--by--lan--year.csv",
+      "name": "netto_bio--by--lan--year",
       "schema": {
         "fields": [
           {
@@ -653,7 +380,7 @@
             "name": "year"
           },
           {
-            "name": "netto_bio_tja"
+            "name": "netto_bio"
           }
         ],
         "primaryKey": [
@@ -663,8 +390,8 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--netto_bio_tot--by--lan--year.csv",
-      "name": "netto_bio_tot--by--lan--year",
+      "path": "ddf--datapoints/ddf--datapoints--netto_lan--by--lan--year.csv",
+      "name": "netto_lan--by--lan--year",
       "schema": {
         "fields": [
           {
@@ -674,7 +401,7 @@
             "name": "year"
           },
           {
-            "name": "netto_bio_tot"
+            "name": "netto_lan"
           }
         ],
         "primaryKey": [
@@ -705,6 +432,48 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--syss_lan--by--lan--year.csv",
+      "name": "syss_lan--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "syss_lan"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--vaxthus--by--lan--year.csv",
+      "name": "vaxthus--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vaxthus"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--concepts.csv",
       "name": "ddf--concepts-2",
       "schema": {
@@ -723,6 +492,9 @@
           },
           {
             "name": "tags"
+          },
+          {
+            "name": "unit"
           },
           {
             "name": "domain"
@@ -795,9 +567,9 @@
           "geo",
           "year"
         ],
-        "value": "fora_bio_ejbranch",
+        "value": "ant_ny_for",
         "resources": [
-          "fora_bio_ejbranch--by--lan--year"
+          "ant_ny_for--by--lan--year"
         ]
       },
       {
@@ -805,9 +577,9 @@
           "geo",
           "year"
         ],
-        "value": "fora_bio_mark",
+        "value": "avs_tilv_tra",
         "resources": [
-          "fora_bio_mark--by--lan--year"
+          "avs_tilv_tra--by--lan--year"
         ]
       },
       {
@@ -815,29 +587,9 @@
           "geo",
           "year"
         ],
-        "value": "fora_bio_offentl",
+        "value": "brutto_lan",
         "resources": [
-          "fora_bio_offentl--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "fora_bio_tja",
-        "resources": [
-          "fora_bio_tja--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "fora_bio_tot",
-        "resources": [
-          "fora_bio_tot--by--lan--year"
+          "brutto_lan--by--lan--year"
         ]
       },
       {
@@ -855,9 +607,9 @@
           "geo",
           "year"
         ],
-        "value": "forv_bio_ejbranch",
+        "value": "foradl_bio",
         "resources": [
-          "forv_bio_ejbranch--by--lan--year"
+          "foradl_bio--by--lan--year"
         ]
       },
       {
@@ -865,139 +617,9 @@
           "geo",
           "year"
         ],
-        "value": "forv_bio_ejbranch_kvn",
+        "value": "forv_bio",
         "resources": [
-          "forv_bio_ejbranch_kvn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_ejbranch_mn",
-        "resources": [
-          "forv_bio_ejbranch_mn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_mark",
-        "resources": [
-          "forv_bio_mark--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_mark_kvn",
-        "resources": [
-          "forv_bio_mark_kvn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_mark_mn",
-        "resources": [
-          "forv_bio_mark_mn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_offentl",
-        "resources": [
-          "forv_bio_offentl--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_offentl_kvn",
-        "resources": [
-          "forv_bio_offentl_kvn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_offentl_mn",
-        "resources": [
-          "forv_bio_offentl_mn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_tja",
-        "resources": [
-          "forv_bio_tja--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_tja_kvn",
-        "resources": [
-          "forv_bio_tja_kvn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_tja_mn",
-        "resources": [
-          "forv_bio_tja_mn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_tot",
-        "resources": [
-          "forv_bio_tot--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_tot_kvn",
-        "resources": [
-          "forv_bio_tot_kvn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo",
-          "year"
-        ],
-        "value": "forv_bio_tot_mn",
-        "resources": [
-          "forv_bio_tot_mn--by--lan--year"
+          "forv_bio--by--lan--year"
         ]
       },
       {
@@ -1018,6 +640,26 @@
         "value": "forv_kvn_ant",
         "resources": [
           "forv_kvn_ant--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_kvn_bio",
+        "resources": [
+          "forv_kvn_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_man_bio",
+        "resources": [
+          "forv_man_bio--by--lan--year"
         ]
       },
       {
@@ -1065,9 +707,9 @@
           "geo",
           "year"
         ],
-        "value": "netto_bio_mark",
+        "value": "med_tilv_tra",
         "resources": [
-          "netto_bio_mark--by--lan--year"
+          "med_tilv_tra--by--lan--year"
         ]
       },
       {
@@ -1075,9 +717,9 @@
           "geo",
           "year"
         ],
-        "value": "netto_bio_tja",
+        "value": "netto_bio",
         "resources": [
-          "netto_bio_tja--by--lan--year"
+          "netto_bio--by--lan--year"
         ]
       },
       {
@@ -1085,9 +727,9 @@
           "geo",
           "year"
         ],
-        "value": "netto_bio_tot",
+        "value": "netto_lan",
         "resources": [
-          "netto_bio_tot--by--lan--year"
+          "netto_lan--by--lan--year"
         ]
       },
       {
@@ -1098,6 +740,26 @@
         "value": "prodv",
         "resources": [
           "prodv--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "syss_lan",
+        "resources": [
+          "syss_lan--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "vaxthus",
+        "resources": [
+          "vaxthus--by--lan--year"
         ]
       },
       {
@@ -1125,9 +787,9 @@
           "lan",
           "year"
         ],
-        "value": "fora_bio_ejbranch",
+        "value": "ant_ny_for",
         "resources": [
-          "fora_bio_ejbranch--by--lan--year"
+          "ant_ny_for--by--lan--year"
         ]
       },
       {
@@ -1135,9 +797,9 @@
           "lan",
           "year"
         ],
-        "value": "fora_bio_mark",
+        "value": "avs_tilv_tra",
         "resources": [
-          "fora_bio_mark--by--lan--year"
+          "avs_tilv_tra--by--lan--year"
         ]
       },
       {
@@ -1145,29 +807,9 @@
           "lan",
           "year"
         ],
-        "value": "fora_bio_offentl",
+        "value": "brutto_lan",
         "resources": [
-          "fora_bio_offentl--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "fora_bio_tja",
-        "resources": [
-          "fora_bio_tja--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "fora_bio_tot",
-        "resources": [
-          "fora_bio_tot--by--lan--year"
+          "brutto_lan--by--lan--year"
         ]
       },
       {
@@ -1185,9 +827,9 @@
           "lan",
           "year"
         ],
-        "value": "forv_bio_ejbranch",
+        "value": "foradl_bio",
         "resources": [
-          "forv_bio_ejbranch--by--lan--year"
+          "foradl_bio--by--lan--year"
         ]
       },
       {
@@ -1195,139 +837,9 @@
           "lan",
           "year"
         ],
-        "value": "forv_bio_ejbranch_kvn",
+        "value": "forv_bio",
         "resources": [
-          "forv_bio_ejbranch_kvn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_ejbranch_mn",
-        "resources": [
-          "forv_bio_ejbranch_mn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_mark",
-        "resources": [
-          "forv_bio_mark--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_mark_kvn",
-        "resources": [
-          "forv_bio_mark_kvn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_mark_mn",
-        "resources": [
-          "forv_bio_mark_mn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_offentl",
-        "resources": [
-          "forv_bio_offentl--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_offentl_kvn",
-        "resources": [
-          "forv_bio_offentl_kvn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_offentl_mn",
-        "resources": [
-          "forv_bio_offentl_mn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_tja",
-        "resources": [
-          "forv_bio_tja--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_tja_kvn",
-        "resources": [
-          "forv_bio_tja_kvn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_tja_mn",
-        "resources": [
-          "forv_bio_tja_mn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_tot",
-        "resources": [
-          "forv_bio_tot--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_tot_kvn",
-        "resources": [
-          "forv_bio_tot_kvn--by--lan--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "year"
-        ],
-        "value": "forv_bio_tot_mn",
-        "resources": [
-          "forv_bio_tot_mn--by--lan--year"
+          "forv_bio--by--lan--year"
         ]
       },
       {
@@ -1348,6 +860,26 @@
         "value": "forv_kvn_ant",
         "resources": [
           "forv_kvn_ant--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_kvn_bio",
+        "resources": [
+          "forv_kvn_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_man_bio",
+        "resources": [
+          "forv_man_bio--by--lan--year"
         ]
       },
       {
@@ -1395,9 +927,9 @@
           "lan",
           "year"
         ],
-        "value": "netto_bio_mark",
+        "value": "med_tilv_tra",
         "resources": [
-          "netto_bio_mark--by--lan--year"
+          "med_tilv_tra--by--lan--year"
         ]
       },
       {
@@ -1405,9 +937,9 @@
           "lan",
           "year"
         ],
-        "value": "netto_bio_tja",
+        "value": "netto_bio",
         "resources": [
-          "netto_bio_tja--by--lan--year"
+          "netto_bio--by--lan--year"
         ]
       },
       {
@@ -1415,9 +947,9 @@
           "lan",
           "year"
         ],
-        "value": "netto_bio_tot",
+        "value": "netto_lan",
         "resources": [
-          "netto_bio_tot--by--lan--year"
+          "netto_lan--by--lan--year"
         ]
       },
       {
@@ -1428,6 +960,26 @@
         "value": "prodv",
         "resources": [
           "prodv--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "syss_lan",
+        "resources": [
+          "syss_lan--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "vaxthus",
+        "resources": [
+          "vaxthus--by--lan--year"
         ]
       }
     ],
@@ -1529,6 +1081,15 @@
           "concept"
         ],
         "value": "tags",
+        "resources": [
+          "ddf--concepts-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "unit",
         "resources": [
           "ddf--concepts-2"
         ]
