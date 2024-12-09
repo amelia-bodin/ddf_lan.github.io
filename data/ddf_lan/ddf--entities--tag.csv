@@ -1,4 +1,5 @@
 ﻿tag,name,parent
-workforce,Workforce,
-konkurs,Konsurser,
-bioekonomi,Bioekonomi,workforce
+ekonomi,Ekonomi,
+miljosek,Miljösektorn,
+bioek,Bioekonomi,ekonomi
+natur,Naturresurser,
