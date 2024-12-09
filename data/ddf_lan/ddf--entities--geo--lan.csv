@@ -22,3 +22,7 @@ jamtlands_lan,TRUE,Jämtlands län
 vasterbottens_lan,TRUE,Västerbottens län
 norrbottens_lan,TRUE,Norrbottens län
 extra_region,TRUE,Extra-region
+n_norrland,TRUE,Norra Norrland
+s_norrland,TRUE,Södra Norrland
+svealand,TRUE,Svealand
+gotaland,TRUE,Götaland
